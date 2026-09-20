@@ -191,7 +191,7 @@
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  color: #ffffff;
+  color: #f4f4fd;
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -221,12 +221,6 @@
 .checkbox-label a:focus-visible {
   color: #404bbf;
 }
-
-.modal-submit-btn:hover,
-.modal-submit-btn:focus {
-  background-color: #404bbf;
-}
-
 /* --- Submit button --- */
 .modal-submit-btn {
   display: flex;
@@ -246,4 +240,8 @@
   letter-spacing: 0.04em;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  background-color: #404bbf;
 }
