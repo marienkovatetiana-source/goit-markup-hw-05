@@ -29,7 +29,6 @@
 .footer-container {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
 }
 .footer-info {
   margin-right: 120px;
@@ -67,6 +66,7 @@
 
 /* --- Форма підписки --- */
 .footer-subscribe {
+  margin-left: auto;
   display: flex;
   flex-direction: column;
 }
